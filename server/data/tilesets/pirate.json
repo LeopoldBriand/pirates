@@ -1,0 +1,1368 @@
+{
+  "name": "kenney-pirate-pack",
+  "tile_size": {
+    "width": 64,
+    "height": 64
+  },
+  "edge_types": [
+    "void",
+    "water",
+    "sand",
+    "grass",
+    "road",
+    "dock",
+    "wall"
+  ],
+  "layers": {
+    "0": "empty",
+    "1": "base",
+    "2": "decoration"
+  },
+  "tiles": [
+    {
+      "id": "tile_01",
+      "source": "Tiles/tile_01.png",
+      "kind": "terrain",
+      "edges": {
+        "top": "water",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_02",
+      "source": "Tiles/tile_02.png",
+      "kind": "terrain",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_03",
+      "source": "Tiles/tile_03.png",
+      "kind": "terrain",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_04",
+      "source": "Tiles/tile_04.png",
+      "kind": "terrain",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_05",
+      "source": "Tiles/tile_05.png",
+      "kind": "terrain",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_06",
+      "source": "Tiles/tile_06.png",
+      "kind": "terrain",
+      "edges": {
+        "top": "water",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_07",
+      "source": "Tiles/tile_07.png",
+      "kind": "coast",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "grass",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+
+    },
+    {
+      "id": "tile_08",
+      "source": "Tiles/tile_08.png",
+      "kind": "coast",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "grass",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_09",
+      "source": "Tiles/tile_09.png",
+      "kind": "terrain",
+      "edges": {
+        "top": "water",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_10",
+      "source": "Tiles/tile_10.png",
+      "kind": "empty",
+      "edges": {
+        "top": "void",
+        "right": "void",
+        "bottom": "void",
+        "left": "void"
+      },
+      "layers": [
+        0
+      ]
+    },
+    {
+      "id": "tile_11",
+      "source": "Tiles/tile_11.png",
+      "kind": "empty",
+      "edges": {
+        "top": "void",
+        "right": "void",
+        "bottom": "void",
+        "left": "void"
+      },
+      "layers": [
+        0
+      ]
+    },
+    {
+      "id": "tile_12",
+      "source": "Tiles/tile_12.png",
+      "kind": "empty",
+      "edges": {
+        "top": "void",
+        "right": "void",
+        "bottom": "void",
+        "left": "void"
+      },
+      "layers": [
+        0
+      ]
+    },
+    {
+      "id": "tile_13",
+      "source": "Tiles/tile_13.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_14",
+      "source": "Tiles/tile_14.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_15",
+      "source": "Tiles/tile_15.png",
+      "kind": "road",
+      "edges": {
+        "top": "road",
+        "right": "road",
+        "bottom": "road",
+        "left": "road"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_16",
+      "source": "Tiles/tile_16.png",
+      "kind": "road",
+      "edges": {
+        "top": "road",
+        "right": "road",
+        "bottom": "road",
+        "left": "road"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_17",
+      "source": "Tiles/tile_17.png",
+      "kind": "coast",
+      "edges": {
+        "top": "water",
+        "right": "sand",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_18",
+      "source": "Tiles/tile_18.png",
+      "kind": "terrain",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_19",
+      "source": "Tiles/tile_19.png",
+      "kind": "coast",
+      "edges": {
+        "top": "sand",
+        "right": "water",
+        "bottom": "sand",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_20",
+      "source": "Tiles/tile_20.png",
+      "kind": "terrain",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_21",
+      "source": "Tiles/tile_21.png",
+      "kind": "terrain",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_22",
+      "source": "Tiles/tile_22.png",
+      "kind": "coast",
+      "edges": {
+        "top": "water",
+        "right": "grass",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_23",
+      "source": "Tiles/tile_23.png",
+      "kind": "grass",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_24",
+      "source": "Tiles/tile_24.png",
+      "kind": "grass",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_25",
+      "source": "Tiles/tile_25.png",
+      "kind": "coast",
+      "edges": {
+        "top": "grass",
+        "right": "water",
+        "bottom": "grass",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_26",
+      "source": "Tiles/tile_26.png",
+      "kind": "empty",
+      "edges": {
+        "top": "void",
+        "right": "void",
+        "bottom": "void",
+        "left": "void"
+      },
+      "layers": [
+        0
+      ]
+    },
+    {
+      "id": "tile_27",
+      "source": "Tiles/tile_27.png",
+      "kind": "empty",
+      "edges": {
+        "top": "void",
+        "right": "void",
+        "bottom": "void",
+        "left": "void"
+      },
+      "layers": [
+        0
+      ]
+    },
+    {
+      "id": "tile_28",
+      "source": "Tiles/tile_28.png",
+      "kind": "empty",
+      "edges": {
+        "top": "void",
+        "right": "void",
+        "bottom": "void",
+        "left": "void"
+      },
+      "layers": [
+        0
+      ]
+    },
+    {
+      "id": "tile_29",
+      "source": "Tiles/tile_29.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_30",
+      "source": "Tiles/tile_30.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_31",
+      "source": "Tiles/tile_31.png",
+      "kind": "dock",
+      "edges": {
+        "top": "dock",
+        "right": "dock",
+        "bottom": "dock",
+        "left": "dock"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_32",
+      "source": "Tiles/tile_32.png",
+      "kind": "dock",
+      "edges": {
+        "top": "dock",
+        "right": "dock",
+        "bottom": "dock",
+        "left": "dock"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_33",
+      "source": "Tiles/tile_33.png",
+      "kind": "coast",
+      "edges": {
+        "top": "water",
+        "right": "sand",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_34",
+      "source": "Tiles/tile_34.png",
+      "kind": "coast",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_35",
+      "source": "Tiles/tile_35.png",
+      "kind": "coast",
+      "edges": {
+        "top": "sand",
+        "right": "water",
+        "bottom": "water",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_36",
+      "source": "Tiles/tile_36.png",
+      "kind": "coast",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "water",
+        "left": "grass"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_37",
+      "source": "Tiles/tile_37.png",
+      "kind": "coast",
+      "edges": {
+        "top": "grass",
+        "right": "water",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_38",
+      "source": "Tiles/tile_38.png",
+      "kind": "coast",
+      "edges": {
+        "top": "water",
+        "right": "grass",
+        "bottom": "water",
+        "left": "grass"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_39",
+      "source": "Tiles/tile_39.png",
+      "kind": "grass",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_40",
+      "source": "Tiles/tile_40.png",
+      "kind": "grass",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_41",
+      "source": "Tiles/tile_41.png",
+      "kind": "coast",
+      "edges": {
+        "top": "water",
+        "right": "grass",
+        "bottom": "water",
+        "left": "grass"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_42",
+      "source": "Tiles/tile_42.png",
+      "kind": "empty",
+      "edges": {
+        "top": "void",
+        "right": "void",
+        "bottom": "void",
+        "left": "void"
+      },
+      "layers": [
+        0
+      ]
+    },
+    {
+      "id": "tile_43",
+      "source": "Tiles/tile_43.png",
+      "kind": "empty",
+      "edges": {
+        "top": "void",
+        "right": "void",
+        "bottom": "void",
+        "left": "void"
+      },
+      "layers": [
+        0
+      ]
+    },
+    {
+      "id": "tile_44",
+      "source": "Tiles/tile_44.png",
+      "kind": "empty",
+      "edges": {
+        "top": "void",
+        "right": "void",
+        "bottom": "void",
+        "left": "void"
+      },
+      "layers": [
+        0
+      ]
+    },
+    {
+      "id": "tile_45",
+      "source": "Tiles/tile_45.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_46",
+      "source": "Tiles/tile_46.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_47",
+      "source": "Tiles/tile_47.png",
+      "kind": "dock",
+      "edges": {
+        "top": "dock",
+        "right": "dock",
+        "bottom": "dock",
+        "left": "dock"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_48",
+      "source": "Tiles/tile_48.png",
+      "kind": "dock",
+      "edges": {
+        "top": "dock",
+        "right": "dock",
+        "bottom": "dock",
+        "left": "dock"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_49",
+      "source": "Tiles/tile_49.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_50",
+      "source": "Tiles/tile_50.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_51",
+      "source": "Tiles/tile_51.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_52",
+      "source": "Tiles/tile_52.png",
+      "kind": "coast",
+      "edges": {
+        "top": "grass",
+        "right": "water",
+        "bottom": "sand",
+        "left": "grass"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_53",
+      "source": "Tiles/tile_53.png",
+      "kind": "coast",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_54",
+      "source": "Tiles/tile_54.png",
+      "kind": "coast",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_55",
+      "source": "Tiles/tile_55.png",
+      "kind": "coast",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "sand",
+        "left": "grass"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_56",
+      "source": "Tiles/tile_56.png",
+      "kind": "coast",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "sand",
+        "left": "grass"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_57",
+      "source": "Tiles/tile_57.png",
+      "kind": "coast",
+      "edges": {
+        "top": "grass",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_58",
+      "source": "Tiles/tile_58.png",
+      "kind": "sand",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_59",
+      "source": "Tiles/tile_59.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_60",
+      "source": "Tiles/tile_60.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_61",
+      "source": "Tiles/tile_61.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_62",
+      "source": "Tiles/tile_62.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_63",
+      "source": "Tiles/tile_63.png",
+      "kind": "road",
+      "edges": {
+        "top": "road",
+        "right": "road",
+        "bottom": "road",
+        "left": "road"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_64",
+      "source": "Tiles/tile_64.png",
+      "kind": "road",
+      "edges": {
+        "top": "road",
+        "right": "road",
+        "bottom": "road",
+        "left": "road"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_65",
+      "source": "Tiles/tile_65.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_66",
+      "source": "Tiles/tile_66.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_67",
+      "source": "Tiles/tile_67.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_68",
+      "source": "Tiles/tile_68.png",
+      "kind": "sand",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_69",
+      "source": "Tiles/tile_69.png",
+      "kind": "sand",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_70",
+      "source": "Tiles/tile_70.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_71",
+      "source": "Tiles/tile_71.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_72",
+      "source": "Tiles/tile_72.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_73",
+      "source": "Tiles/tile_73.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_74",
+      "source": "Tiles/tile_74.png",
+      "kind": "empty",
+      "edges": {
+        "top": "void",
+        "right": "void",
+        "bottom": "void",
+        "left": "void"
+      },
+      "layers": [
+        0
+      ]
+    },
+    {
+      "id": "tile_75",
+      "source": "Tiles/tile_75.png",
+      "kind": "empty",
+      "edges": {
+        "top": "void",
+        "right": "void",
+        "bottom": "void",
+        "left": "void"
+      },
+      "layers": [
+        0
+      ]
+    },
+    {
+      "id": "tile_76",
+      "source": "Tiles/tile_76.png",
+      "kind": "dock",
+      "edges": {
+        "top": "dock",
+        "right": "dock",
+        "bottom": "dock",
+        "left": "dock"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_77",
+      "source": "Tiles/tile_77.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_78",
+      "source": "Tiles/tile_78.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_79",
+      "source": "Tiles/tile_79.png",
+      "kind": "road",
+      "edges": {
+        "top": "road",
+        "right": "road",
+        "bottom": "road",
+        "left": "road"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_80",
+      "source": "Tiles/tile_80.png",
+      "kind": "road",
+      "edges": {
+        "top": "road",
+        "right": "road",
+        "bottom": "road",
+        "left": "road"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_81",
+      "source": "Tiles/tile_81.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_82",
+      "source": "Tiles/tile_82.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_83",
+      "source": "Tiles/tile_83.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_84",
+      "source": "Tiles/tile_84.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_85",
+      "source": "Tiles/tile_85.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_86",
+      "source": "Tiles/tile_86.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "sand",
+        "right": "sand",
+        "bottom": "sand",
+        "left": "sand"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_87",
+      "source": "Tiles/tile_87.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_88",
+      "source": "Tiles/tile_88.png",
+      "kind": "decoration",
+      "edges": {
+        "top": "grass",
+        "right": "grass",
+        "bottom": "grass",
+        "left": "grass"
+      },
+      "layers": [
+        2
+      ]
+    },
+    {
+      "id": "tile_89",
+      "source": "Tiles/tile_89.png",
+      "kind": "wall",
+      "edges": {
+        "top": "wall",
+        "right": "wall",
+        "bottom": "wall",
+        "left": "wall"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_90",
+      "source": "Tiles/tile_90.png",
+      "kind": "wall",
+      "edges": {
+        "top": "wall",
+        "right": "wall",
+        "bottom": "wall",
+        "left": "wall"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_91",
+      "source": "Tiles/tile_91.png",
+      "kind": "wall",
+      "edges": {
+        "top": "wall",
+        "right": "wall",
+        "bottom": "wall",
+        "left": "wall"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_92",
+      "source": "Tiles/tile_92.png",
+      "kind": "wall",
+      "edges": {
+        "top": "wall",
+        "right": "wall",
+        "bottom": "wall",
+        "left": "wall"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_93",
+      "source": "Tiles/tile_93.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_94",
+      "source": "Tiles/tile_94.png",
+      "kind": "water",
+      "edges": {
+        "top": "water",
+        "right": "water",
+        "bottom": "water",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_95",
+      "source": "Tiles/tile_95.png",
+      "kind": "water-road-junction",
+      "edges": {
+        "top": "water",
+        "right": "road",
+        "bottom": "water",
+        "left": "road"
+      },
+      "layers": [
+        1
+      ]
+    },
+    {
+      "id": "tile_96",
+      "source": "Tiles/tile_96.png",
+      "kind": "water-road-junction",
+      "edges": {
+        "top": "road",
+        "right": "water",
+        "bottom": "road",
+        "left": "water"
+      },
+      "layers": [
+        1
+      ]
+    }
+  ]
+}
