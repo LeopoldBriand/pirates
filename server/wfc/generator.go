@@ -83,6 +83,24 @@ func (g *Generator) Generate(
 	)
 }
 
+func (g *Generator) GetGridWithIDs(grid *Grid) [][]string {
+	IDGrid := make([][]string, grid.Height)
+	for y := 0; y < grid.Height; y++ {
+		IDGrid[y] = make([]string, grid.Width)
+		for x := 0; x < grid.Width; x++ {
+			cell := grid.Cell(x, y)
+			if len(cell.Possibilities) == 1 {
+				tileIndex := cell.Possibilities[0]
+				tileID := g.tilset.Tiles[tileIndex].ID
+				IDGrid[y][x] = tileID
+			} else {
+				IDGrid[y][x] = "?"
+			}
+		}
+	}
+	return IDGrid
+}
+
 // Check if 2 tiles are compatible
 func Compatible(a Tile, b Tile, direction Direction) bool {
 	switch direction {
